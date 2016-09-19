@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+ROOT_PATH=$(cd $(dirname $0) && pwd)
+
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+mv $ROOT_PATH/.vimrc.dist ~/.vimrc
+vim +PluginInstall +qall
