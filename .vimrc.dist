@@ -119,5 +119,4 @@ let g:syntastic_check_on_wq=0
 let g:phpcomplete_parse_docblock_comments=1
 
 " tags
-let g:vim_tags_use_language_field=1
 let g:vim_tags_directories=[".vim"]
