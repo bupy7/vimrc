@@ -13,7 +13,6 @@ Plugin 'VundleVim/Vundle.vim'
 " syntax
 Plugin 'tpope/vim-pathogen'
 Plugin 'scrooloose/syntastic'
-Plugin 'scrooloose/nerdcommenter'
 
 " status bar
 Plugin 'vim-airline/vim-airline'
